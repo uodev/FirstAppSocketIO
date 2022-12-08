@@ -1,4 +1,4 @@
-const socket = io.connect("http://localhost:3000");
+const socket = io.connect("https://firstchatappsocket.onrender.com");
 
 const sender = document.getElementById("sender");
 const message = document.getElementById("message");
